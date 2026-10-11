@@ -86,6 +86,14 @@ This reads each Pie's summary and details without changing its configuration.
 A value of `0.2` means 20%. An unfunded Pie can have target weights while its
 actual holdings and values remain zero.
 
+## Use with Claude Code
+
+To let a Claude Code cloud session (claude.ai/code or the Claude app) run the
+reader scripts, configure network access and a Trading 212 network secret in
+the session's environment. See [docs/claude-code-setup.md](docs/claude-code-setup.md)
+for step-by-step instructions, a Thai summary and fixes for common `401` and
+`403` errors.
+
 ## Use with ChatGPT
 
 There are three different workflows. Only the first two work with this
